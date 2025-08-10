@@ -114,7 +114,8 @@ namespace Scripts2D
                 V = v;
             }
 
-            public static bool operator ==(Edge left, Edge right) {
+            public static bool operator ==(Edge left, Edge right)
+            {
                 return left != null
                        && right != null
                        && (left.U.Equals(right.U) || left.U.Equals(right.V))
